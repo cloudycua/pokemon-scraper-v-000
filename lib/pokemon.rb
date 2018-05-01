@@ -18,7 +18,7 @@ class Pokemon
     id = info[0]
     name = info[1]
     type = info[2]
-    Pokemon.new(id, name, type, db)
+    self.new(id, name, type, db)
   end
 
 
