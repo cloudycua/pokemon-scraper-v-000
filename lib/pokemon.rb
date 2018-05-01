@@ -3,7 +3,7 @@ class Pokemon
   @@all = []
   @@count = 0
 
-  def initialize(id:, name:, type:, db:)
+  def initialize(name:, type:, db:)
     @@count += 1
     @id = @@count
     @name = name
