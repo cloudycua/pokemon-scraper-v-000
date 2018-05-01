@@ -25,4 +25,3 @@ class Pokemon
   end
 
 end
-
