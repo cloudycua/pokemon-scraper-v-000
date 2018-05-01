@@ -18,7 +18,6 @@ class Pokemon
     id = info[0]
     name = info[1]
     type = info[2]
-        binding.pry
     self.new(id: id, name: name, type: type, db: db)
   end
 
