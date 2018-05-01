@@ -21,5 +21,4 @@ class Pokemon
     self.new(id: id, name: name, type: type, db: db)
   end
 
-
 end
