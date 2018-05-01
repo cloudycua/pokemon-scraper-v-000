@@ -23,6 +23,7 @@ class Pokemon
   end
 
   def alter_hp
+    db.execute("")
   end
 
 end
