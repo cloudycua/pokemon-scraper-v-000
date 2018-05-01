@@ -18,8 +18,7 @@ class Pokemon
     id = info[0]
     name = info[1]
     type = info[2]
-    hp = info[3]
-    self.new(id: id, name: name, type: type, hp: hp, db: db)
+    self.new(id: id, name: name, type: type, db: db)
   end
 
   def alter_hp
